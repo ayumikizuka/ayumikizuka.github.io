@@ -20,10 +20,11 @@
 
 <script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
 <script type="text/javascript">// <![CDATA[
-google.charts.load("current", {
+/*google.charts.load("current", {
   packages: ["timeline"]
 });
-google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(drawChart);*/
+  google.setOnLoadCallback(drawChart);
 
 function drawChart() {
   var container = document.getElementById('timeline-tooltip');
